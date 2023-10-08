@@ -16,7 +16,7 @@ body {
   
   /* Custom button styles based on the distress signal */
   button:nth-child(1) {
-    background-color: #ff0000; /* Red for SOS */
+    background-color: #310835; /* Red for SOS */
     color: #fff;
   }
   
