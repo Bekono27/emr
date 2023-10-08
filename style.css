@@ -4,9 +4,9 @@ body {
   }
   
   button {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 5px;
+    font-size: 30px;
+    padding: 25px 50px;
+    margin: 25px;
     cursor: pointer;
   }
   
@@ -38,5 +38,13 @@ body {
   button:nth-child(5) {
     background-color: #008000; /* Green for Code Green */
     color: #fff;
+  }
+  .top {
+    position: absolute;
+    top: 15%;
+    left: 50%; /* Adjust left position as needed */
+    transform: translateX(-50%);
+    background-color: lightblue;
+    padding: 10px;
   }
   
