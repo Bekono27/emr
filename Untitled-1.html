@@ -15,6 +15,65 @@
     .container {
       text-align: center;
     }
+    
+  </style>
+</head>
+
+<body>
+ <div class="top"><center> <h1>This website protected with the rights do not copy the code and do not use it without permission . Only alowed people use only! </h1> </center> </div>   
+  <div class="container">
+    <button onclick="triggerCode('SOS')">S.O.S</button>
+    <button onclick="triggerCode('Red')">Code Red</button>
+    <button onclick="triggerCode('Blue')">Code Blue</button>
+    <button onclick="triggerCode('Yellow')">Code Yellow</button>
+    <button onclick="triggerCode('Green')">Code Green</button>
+  </div>
+
+  <script>
+    function triggerCode(code) {
+      let page;
+      switch (code) {
+        case 'SOS':
+          page = 'sos.html';
+          break;
+        case 'Red':
+          page = 'cr.html';
+          break;
+        case 'Blue':
+          page = 'cb.html';
+          break;
+        case 'Yellow':
+          page = 'cy.html';
+          break;
+        case 'Green':
+          page = 'cg.html';
+          break;
+        default:
+          page = 'index.html';
+          break;
+      }
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emergency Signal Buttons</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: lightblue;
+    }
+
+    .container {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
